@@ -1,0 +1,10 @@
+.main {
+  background-color: #11100f;
+  min-height: calc(100vh - 50px);
+  display: flex;
+  color: #fff;
+}
+
+.main__content {
+  flex: 1 1 0px;
+}/*# sourceMappingURL=main.css.map */

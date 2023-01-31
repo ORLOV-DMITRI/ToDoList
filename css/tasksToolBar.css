@@ -1,0 +1,72 @@
+.container {
+  padding: 0 15px;
+  margin-bottom: 24px;
+}
+
+.tasks-toolbar {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 16px 0;
+}
+.tasks-toolbar__left {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+.tasks-toolbar__right {
+  margin-right: 20px;
+}
+.tasks-toolbar__title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 9px;
+}
+.tasks-toolbar__sort {
+  font-size: 1.5rem;
+  color: #a19f9d;
+  padding: 10px;
+  cursor: pointer;
+}
+.tasks-toolbar__sort:hover {
+  background-color: #323130;
+  filter: brightness(110%);
+  border-radius: 5px;
+}
+.tasks-toolbar__subtitle {
+  color: #a19f9d;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  font-weight: 200;
+  display: flex;
+  justify-content: start;
+}
+
+.title__item {
+  margin: 0;
+}
+
+.icon-lg {
+  font-size: 2rem;
+}
+
+.tasks-toolbar__btn-openSideBar {
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  padding: 0;
+  display: flex;
+}
+
+.tasks-toolbar__btn-openSideBar:hover {
+  background-color: #323130;
+  filter: brightness(110%);
+  border-radius: 5px;
+}/*# sourceMappingURL=tasksToolBar.css.map */
